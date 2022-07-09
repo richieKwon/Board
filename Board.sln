@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "Presen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Model", "Note.Model\Note.Model.csproj", "{58018902-A0E7-47A3-80C3-BD44539E3BDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.IDAL", "Note.IDAL\Note.IDAL.csproj", "{257E5FBF-C2D1-4058-AA2A-D06731CFB94C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.DAL", "Note.DAL\Note.DAL.csproj", "{3EB8791E-E4BF-47AB-9430-A5121028D2CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,21 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{58018902-A0E7-47A3-80C3-BD44539E3BDA} = {ECD0860A-0B1A-4218-9216-AD70AA348627}
+		{257E5FBF-C2D1-4058-AA2A-D06731CFB94C} = {30840179-C2E9-419D-80C6-DA560A27D466}
+		{3EB8791E-E4BF-47AB-9430-A5121028D2CC} = {30840179-C2E9-419D-80C6-DA560A27D466}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{58018902-A0E7-47A3-80C3-BD44539E3BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58018902-A0E7-47A3-80C3-BD44539E3BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58018902-A0E7-47A3-80C3-BD44539E3BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58018902-A0E7-47A3-80C3-BD44539E3BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257E5FBF-C2D1-4058-AA2A-D06731CFB94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257E5FBF-C2D1-4058-AA2A-D06731CFB94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257E5FBF-C2D1-4058-AA2A-D06731CFB94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257E5FBF-C2D1-4058-AA2A-D06731CFB94C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB8791E-E4BF-47AB-9430-A5121028D2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB8791E-E4BF-47AB-9430-A5121028D2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB8791E-E4BF-47AB-9430-A5121028D2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB8791E-E4BF-47AB-9430-A5121028D2CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
