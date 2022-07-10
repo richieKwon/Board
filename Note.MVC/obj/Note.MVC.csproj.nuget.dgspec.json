@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/richie/RiderProjects/Board/Note.MVC/Note.MVC.csproj": {}
+  },
+  "projects": {
+    "/Users/richie/RiderProjects/Board/Note.BLL/Note.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richie/RiderProjects/Board/Note.BLL/Note.BLL.csproj",
+        "projectName": "Note.BLL",
+        "projectPath": "/Users/richie/RiderProjects/Board/Note.BLL/Note.BLL.csproj",
+        "packagesPath": "/Users/richie/.nuget/packages/",
+        "outputPath": "/Users/richie/RiderProjects/Board/Note.BLL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/richie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/richie/RiderProjects/Board/Note.IDAL/Note.IDAL.csproj": {
+                "projectPath": "/Users/richie/RiderProjects/Board/Note.IDAL/Note.IDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/richie/RiderProjects/Board/Note.DAL/Note.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richie/RiderProjects/Board/Note.DAL/Note.DAL.csproj",
+        "projectName": "Note.DAL",
+        "projectPath": "/Users/richie/RiderProjects/Board/Note.DAL/Note.DAL.csproj",
+        "packagesPath": "/Users/richie/.nuget/packages/",
+        "outputPath": "/Users/richie/RiderProjects/Board/Note.DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/richie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/richie/RiderProjects/Board/Note.IDAL/Note.IDAL.csproj": {
+                "projectPath": "/Users/richie/RiderProjects/Board/Note.IDAL/Note.IDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/richie/RiderProjects/Board/Note.IDAL/Note.IDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richie/RiderProjects/Board/Note.IDAL/Note.IDAL.csproj",
+        "projectName": "Note.IDAL",
+        "projectPath": "/Users/richie/RiderProjects/Board/Note.IDAL/Note.IDAL.csproj",
+        "packagesPath": "/Users/richie/.nuget/packages/",
+        "outputPath": "/Users/richie/RiderProjects/Board/Note.IDAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/richie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/richie/RiderProjects/Board/Note.Model/Note.Model.csproj": {
+                "projectPath": "/Users/richie/RiderProjects/Board/Note.Model/Note.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/richie/RiderProjects/Board/Note.Model/Note.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richie/RiderProjects/Board/Note.Model/Note.Model.csproj",
+        "projectName": "Note.Model",
+        "projectPath": "/Users/richie/RiderProjects/Board/Note.Model/Note.Model.csproj",
+        "packagesPath": "/Users/richie/.nuget/packages/",
+        "outputPath": "/Users/richie/RiderProjects/Board/Note.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/richie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/richie/RiderProjects/Board/Note.MVC/Note.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richie/RiderProjects/Board/Note.MVC/Note.MVC.csproj",
+        "projectName": "Note.MVC",
+        "projectPath": "/Users/richie/RiderProjects/Board/Note.MVC/Note.MVC.csproj",
+        "packagesPath": "/Users/richie/.nuget/packages/",
+        "outputPath": "/Users/richie/RiderProjects/Board/Note.MVC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/richie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/richie/RiderProjects/Board/Note.BLL/Note.BLL.csproj": {
+                "projectPath": "/Users/richie/RiderProjects/Board/Note.BLL/Note.BLL.csproj"
+              },
+              "/Users/richie/RiderProjects/Board/Note.DAL/Note.DAL.csproj": {
+                "projectPath": "/Users/richie/RiderProjects/Board/Note.DAL/Note.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
