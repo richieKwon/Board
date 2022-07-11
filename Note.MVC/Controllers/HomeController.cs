@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Note.BLL;
 using Note.MVC.Models;
 
 namespace Note.MVC.Controllers
@@ -12,14 +13,21 @@ namespace Note.MVC.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly NoticeBll _noticeBll;
 
-        public HomeController(ILogger<HomeController> logger)
+        // // public HomeController(ILogger<HomeController> logger)
+        // {
+        //     _logger = logger;
+        // }
+
+        public HomeController(NoticeBll noticeBll)
         {
-            _logger = logger;
+            _noticeBll = noticeBll;
         }
 
         public IActionResult Index()
         {
+            var list = _noticeBll.GetNoticeList();
             return View();
         }
 

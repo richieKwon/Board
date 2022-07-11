@@ -1,15 +1,22 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Note.Model;
 
 namespace Note.DAL.DataContext
 {
     public class NoteDbContext : DbContext
     {
+        private readonly IConfiguration _configuration;
+
+        public NoteDbContext(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
         public DbSet<Notice> Notices { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=127.0.0.1;Database=AspNote;User Id=sa;Password=richie1234Jen!;");
+            optionsBuilder.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"));
         }
     }
 } 
