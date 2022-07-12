@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.BLL", "Note.BLL\Note.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.MVC", "Note.MVC\Note.MVC.csproj", "{7009AA67-94C9-4B56-8CE5-19B1DBE5B96F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDTest", "IDTest\IDTest.csproj", "{D50F315F-87D2-41D6-AF23-592C99C84E29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,5 +53,9 @@ Global
 		{7009AA67-94C9-4B56-8CE5-19B1DBE5B96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7009AA67-94C9-4B56-8CE5-19B1DBE5B96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7009AA67-94C9-4B56-8CE5-19B1DBE5B96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50F315F-87D2-41D6-AF23-592C99C84E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50F315F-87D2-41D6-AF23-592C99C84E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50F315F-87D2-41D6-AF23-592C99C84E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50F315F-87D2-41D6-AF23-592C99C84E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
