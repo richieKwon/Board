@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace IDTest.Data.Migrations
+namespace IdentityTestCode.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
